@@ -1,0 +1,8 @@
+button {
+  position: absolute;
+  top: 50%;                   
+  left: 50%;                  
+  transform: translate(-50%, -50%); /* เลื่อนกลับครึ่งหนึ่ง */
+  padding: 15px 30px;
+  font-size: 100px;
+}
