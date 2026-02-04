@@ -4,17 +4,16 @@ body, html {
   font-family: Arial, sans-serif;
 }
 
-/* ส่วนที่เป็น parallax */
 .parallax {
-  height: 100vh; /* เต็มหน้าจอ */
-  background-attachment: fixed; /* ทำให้ภาพพื้นหลังเลื่อนช้ากว่าเนื้อหา */
+  height: 100vh; 
+  background-attachment: fixed; 
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
 }
 
-/* ใส่ภาพพื้นหลัง */
+
 .img1 {
   background-image: url("https://picsum.photos/id/1018/1920/1080");
 }
@@ -22,7 +21,7 @@ body, html {
   background-image: url("https://picsum.photos/id/1015/1920/1080");
 }
 
-/* ข้อความบนภาพ */
+
 .caption {
   position: absolute;
   top: 50%;
@@ -34,7 +33,7 @@ body, html {
   text-shadow: 2px 2px 5px rgba(0,0,0,0.7);
 }
 
-/* บล็อกข้อความ */
+
 .block {
   background-color: black;
   color: white;
