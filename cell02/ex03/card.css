@@ -1,0 +1,73 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background: #f0f0f0;
+  font-family: Arial, sans-serif;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  border-radius: 10px;
+}
+
+.title {
+  margin-bottom: 15px;
+}
+
+
+
+.login {
+  font-weight: bold;
+  margin-top: 50px ;
+}
+
+.description {
+  color: gray;
+  margin-bottom: 20px;
+}
+
+.info-table {
+  margin: 0 auto 20px auto;
+}
+
+.social {
+  width: 30px;
+  height: 30px;
+  margin: 0 5px;
+}
+
+.contact-btn {
+  background: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.contact-btn:hover {
+  background: #3e8e41;
+}
+
+
+:root {
+  --profile-url: url("https://cdn.discordapp.com/attachments/1061577762617438349/1355984824170709293/image.png?ex=69844487&is=6982f307&hm=901293bbe5d72ef7a5abc37efbab99114269535592c296d22f41a75a48f2a751&");
+}
+
+.profile-pic {
+  width: 250px;      
+  height: 250px;
+margin: 0 auto;     
+  background-image: var(--profile-url);
+  background-size: cover;
+  background-position: center;
+  display: block;
+}
+
